@@ -1,0 +1,48 @@
+.board-header {
+    margin: 0 0 15px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+
+.board-header h2{
+    margin: 0;
+    padding: 0 5px;
+}
+
+.board-header h2 input {
+    border-radius: 5px;
+    justify-content: stretch;
+    align-items: stretch;
+    height: 30px;
+    padding: 5px;
+    font-size: 1rem;
+    font-weight: 700;
+    border: 1px solid #888888;
+}
+
+.board-header .board-actions button.add-list{
+    background-color: var(--primary-color);
+    color: white;
+}
+
+.board-header .board-actions button.delete-board{
+    background-color: var(--danger-color);
+    color: white;
+}
+
+.board-header button{
+    border: none;
+    margin: 0 5px;
+    padding: 15px 25px;
+    border-radius: 4px;
+    text-transform: uppercase;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+.list-wrapper {
+    display: flex;
+    flex-direction: row;
+}

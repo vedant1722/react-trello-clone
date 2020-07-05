@@ -1,0 +1,50 @@
+.list {
+    padding: 7px;
+    background-color: #ebecf0;
+    width: 20%;
+    border-radius: 5px;
+    margin: 0 5px;
+}
+
+.list .input-wrapper{
+    display: flex;
+}
+
+.list input {
+    width: 100%;
+    border-radius: 5px;
+    justify-content: stretch;
+    align-items: stretch;
+    height: 30px;
+    padding: 5px;
+    font-size: 1rem;
+    font-weight: 700;
+    border: 1px solid #888888;
+}
+
+.list .no-cards{
+    padding: 40px;
+    background-color: #eee;
+    text-align: center;
+}
+
+.list button {
+    width: 100%;
+    border: none;
+    padding: 10px;
+    border-radius: 3px;
+    text-transform: uppercase;
+    font-weight: 700;
+    cursor: pointer;
+    margin: 5px 0;
+}
+
+.list button.add-card-btn {
+    background-color: var(--primary-color);
+    color: white;
+}
+
+.list button.delete-list-btn {
+    background-color: var(--danger-color);
+    color: white;
+}
